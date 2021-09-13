@@ -1,0 +1,25 @@
+.card, .list-group-item{
+  border: none;
+}
+.list-group{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 30%;
+}
+.nav-link{
+  color: black;
+}
+.nav-link:hover{
+  background-color: #64779B;
+  background-size: cover;
+  border-radius: 14%;
+  color: #FFFFFF;
+}
+.list-group-item{
+  margin: 0 auto;
+}
+.last-item{
+  position: absolute;
+  bottom: 0;
+}

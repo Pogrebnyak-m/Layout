@@ -1,0 +1,43 @@
+.container{
+  border-color: #7C60F8;
+  border-style: solid;
+  border-width: 3px;
+}
+.secondPage-subtitle{
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #989793;
+  font-size: 1rem;
+  padding-bottom: 1%;
+}
+.bi-arrow-left-right{
+  color: #64779B;
+}
+.form-control{
+  border: none;
+}
+.form-control:focus {
+  box-shadow: 2px 2px 1px #F5B399 !important;
+}
+.form-container{
+  display: inline-flex;
+  justify-content: space-between;
+}
+.form-container-wrap{
+  display: inline-flex;
+  justify-content: space-between;
+  padding-bottom: 4%;
+  align-items: center;
+  width: 100%;
+}
+.form-control1-wrap{
+  padding-right: 4%;
+}
+.form-control2-wrap{
+  padding-left: 4%;
+}
+.img-wrap{
+  height: 200px;
+  background-color: #FFFFFF;
+}
+

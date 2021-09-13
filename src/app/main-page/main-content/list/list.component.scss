@@ -1,0 +1,68 @@
+.second-row{
+  display: inline-flex;
+  justify-content: space-between;
+}
+.cards-group{
+  display: flex;
+  justify-content: flex-end;
+}
+.card-title{
+  font-size: 20px;
+  font-weight: 500;
+}
+.card-title-row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-title-description{
+  text-align: end;
+  color: #989793;
+  font-size: 15px;
+  font-weight: 400;
+  margin: auto 0;
+  height: fit-content;
+}
+.dropdown{
+  padding: 2% 0;
+}
+.btn-light, .dropdown-menu{
+  background-color: #FFFFFF;
+  border: none;
+  color: #989793;
+  margin: 0;
+}
+.dropdown-toggle:focus{
+  box-shadow: 2px 2px 1px #F5B399 !important;
+}
+.dropdown-item:focus{
+  background-color: #F5B399;
+}
+.card-nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scrollable {
+  height: auto;
+  max-height: 26em;
+  overflow-x: hidden;
+  padding-left: 0;
+}
+.bi-display{
+  color: #F1CDBE;
+}
+.bi-phone-blue{
+  color: #B6C8EC;
+}
+.bi-phone-green{
+  color: #B2ECC4;
+}
+.list-group-ip{
+  padding-left: 3%;
+}
+.list-group-data{
+  padding-left: 5%;
+}
+
